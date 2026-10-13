@@ -1,9 +1,22 @@
 # M K Julkarnain — Portfolio
 
-Minimal, terminal-inspired portfolio. Plain HTML/CSS/JS — no build step.
+Minimal, terminal-inspired personal portfolio. Plain HTML, CSS and JavaScript, no build step.
 
-## Go live on GitHub Pages
-1. Create a **public** repo named `<your-username>.github.io` (or any name).
-2. Push these files to the `main` branch.
-3. Repo → **Settings → Pages → Source: Deploy from a branch → `main` / `(root)`** → Save.
-4. Site appears at `https://<your-username>.github.io/` (about a minute).
+**Live:** https://m-k-julkarnain.github.io
+
+## Features
+- Dark and light themes
+- Section navigation with scroll highlighting
+- Scroll animations, typing effect and progress bar
+- Responsive layout
+
+## Sections
+About · Projects · Skills · Education · Contact
+
+## Run locally
+Open `index.html` in a browser.
+
+## Structure
+- `index.html`: content
+- `style.css`: design and animations
+- `script.js`: theme toggle, typing effect, scroll behaviour
