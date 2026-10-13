@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M K Julkarnain — Java Developer</title>
+<meta name="description" content="Portfolio of M K Julkarnain — CSE undergraduate and Java / Spring Boot developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<header class="nav">
+  <a href="#home" class="logo">~/julkarnain<span class="cursor">_</span></a>
+  <nav id="nav">
+    <a href="#home" class="active">home</a>
+    <a href="#about">about</a>
+    <a href="#projects">projects</a>
+    <a href="#skills">skills</a>
+    <a href="#education">education</a>
+    <a href="#contact">contact</a>
+  </nav>
+  <button id="theme" class="theme" aria-label="Toggle theme">◐</button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <p class="mono muted reveal">$ whoami</p>
+  <h1 class="reveal">M K Julkarnain</h1>
+  <p class="mono role reveal"><span id="typed"></span><span class="cursor">|</span></p>
+  <p class="lead reveal">CSE undergraduate building full-stack applications with Java, Spring Boot and MySQL — from schema design to tested, deployable code.</p>
+  <div class="cta reveal">
+    <a class="btn primary" href="#projects">view projects</a>
+    <a class="btn" href="#contact">get in touch</a>
+  </div>
+</section>
+
+<section id="about" class="reveal-group">
+  <h2 class="reveal"><span class="mono muted">01.</span> about</h2>
+  <div class="card reveal">
+    <p>Computer Science and Engineering undergraduate with hands-on, full-stack development experience in Java, Spring Boot, MySQL and web technologies. I build and personally test end-to-end applications — CRUD workflows, authentication, and unit/integration test suites — which gives me practical exposure to the full Software Development Life Cycle.</p>
+    <ul class="stats mono">
+      <li><b>3.88</b><span>CGPA</span></li>
+      <li><b>3</b><span>major projects</span></li>
+      <li><b>2</b><span>languages</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects" class="reveal-group">
+  <h2 class="reveal"><span class="mono muted">02.</span> projects</h2>
+  <div class="grid">
+    <article class="card project reveal">
+      <header><h3>Zayqaa Store</h3><span class="mono muted">e-commerce</span></header>
+      <ul>
+        <li>Tested end-to-end customer workflows — catalog, cart, checkout, order-status tracking — across Admin and Customer roles.</li>
+        <li>Verified consistent behaviour across two database configurations (MySQL and H2).</li>
+        <li>Unit and integration tests for cart, wishlist and order handling.</li>
+      </ul>
+      <p class="tags mono"><span>Java</span><span>Spring Boot</span><span>Thymeleaf</span><span>MySQL / H2</span><span>Docker</span></p>
+    </article>
+
+    <article class="card project reveal">
+      <header><h3>HRMS</h3><span class="mono muted">human resources</span></header>
+      <ul>
+        <li>CRUD workflows across Employees, Recruitment, Attendance and Payroll, checked against business rules like duplicate-code prevention and status flows.</li>
+        <li>Designed relational schema and ER diagram with foreign keys, cascade rules and indexing.</li>
+        <li>Verified Excel and PDF report exports against source data; unit and integration tests included.</li>
+      </ul>
+      <p class="tags mono"><span>Java</span><span>Spring Boot</span><span>MySQL</span><span>Thymeleaf</span><span>Docker</span></p>
+    </article>
+
+    <article class="card project reveal">
+      <header><h3>Bookstore API</h3><span class="mono muted">rest backend</span></header>
+      <ul>
+        <li>RESTful backend following MVC architecture, with every CRUD endpoint verified per resource.</li>
+      </ul>
+      <p class="tags mono"><span>Java</span><span>Spring Boot</span><span>Spring Data JPA</span></p>
+    </article>
+  </div>
+</section>
+
+<section id="skills" class="reveal-group">
+  <h2 class="reveal"><span class="mono muted">03.</span> skills</h2>
+  <div class="grid skills">
+    <div class="card reveal"><h3>Java</h3><p class="chips mono"><span>OOP</span><span>Collections</span><span>Exception Handling</span><span>File Handling</span><span>JDBC</span></p></div>
+    <div class="card reveal"><h3>Spring Boot</h3><p class="chips mono"><span>REST APIs</span><span>MVC</span><span>Spring Data JPA</span><span>Dependency Injection</span><span>Auth &amp; Authorization</span></p></div>
+    <div class="card reveal"><h3>Databases</h3><p class="chips mono"><span>MySQL</span><span>SQL</span><span>Design &amp; Normalization</span><span>CRUD</span></p></div>
+    <div class="card reveal"><h3>Testing</h3><p class="chips mono"><span>Manual functional testing</span><span>Unit &amp; integration</span><span>Data-integrity validation</span><span>Defect spotting</span></p></div>
+    <div class="card reveal"><h3>Research</h3><p class="chips mono"><span>Literature review</span><span>Academic writing</span><span>Conference papers</span></p></div>
+    <div class="card reveal"><h3>Other</h3><p class="chips mono"><span>Word</span><span>Excel</span><span>PowerPoint</span><span>Bangla</span><span>English</span></p></div>
+  </div>
+</section>
+
+<section id="education" class="reveal-group">
+  <h2 class="reveal"><span class="mono muted">04.</span> education</h2>
+  <ol class="timeline">
+    <li class="reveal"><span class="mono muted">01/2024 — present</span><h3>B.Sc. in Computer Science &amp; Engineering</h3><p>IUBAT – International University of Business Agriculture and Technology · CGPA 3.88</p></li>
+    <li class="reveal"><span class="mono muted">HSC</span><h3>Higher Secondary Certificate (Science)</h3><p>National Ideal College, Khilgaon, Dhaka · GPA 5.00</p></li>
+    <li class="reveal"><span class="mono muted">SSC</span><h3>Secondary School Certificate (Science)</h3><p>BPATC School and College, Savar, Dhaka · GPA 5.00</p></li>
+  </ol>
+</section>
+
+<section id="contact" class="reveal-group">
+  <h2 class="reveal"><span class="mono muted">05.</span> contact</h2>
+  <div class="card reveal contact">
+    <p>Open to internships, junior developer roles and research collaboration. Say hello.</p>
+    <p class="mono"><a href="mailto:mkjulkarnain.akash@gmail.com">mkjulkarnain.akash@gmail.com</a></p>
+    <p class="links mono">
+      <a href="https://github.com/m-k-julkarnain" target="_blank" rel="noopener">github</a>
+      <a href="https://www.linkedin.com/in/m-k-julkarnain" target="_blank" rel="noopener">linkedin</a>
+      <span class="muted">Dhaka, Bangladesh</span>
+    </p>
+  </div>
+</section>
+</main>
+
+<footer class="mono muted">© <span id="year"></span> M K Julkarnain · built with HTML, CSS &amp; JS</footer>
+<script src="script.js"></script>
+</body>
+</html>
