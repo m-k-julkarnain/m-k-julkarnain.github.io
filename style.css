@@ -91,3 +91,7 @@ footer{text-align:center;font-size:.75rem;padding:80px 16px 40px}
   .logo{display:none}
   .nav{gap:8px}
 }
+
+.project h3 a:hover{color:var(--accent)}
+.repo-link{font-size:.78rem;color:var(--accent);align-self:flex-start}
+.repo-link:hover{text-decoration:underline;text-underline-offset:4px}
